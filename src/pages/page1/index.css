@@ -1,0 +1,46 @@
+:root {
+  --theme-color: #52b3d0;
+}
+
+.btn {
+  @apply px-4 py-2 rounded font-semibold bg-gray-200 text-black;
+}
+
+.btn2 {
+  background-color: var(--theme-color);
+}
+
+.btn3 {
+  background-color: theme("colors.blue.500");
+  padding: theme("spacing.2") theme("spacing.4");
+}
+
+.card {
+  @apply p-4 bg-white shadow rounded;
+}
+
+.alert {
+  @apply bg-red-500 !important;
+}
+
+.alert2 {
+  /* @apply bg-red-500 #{!important}; */
+}
+
+.card2 {
+  /* @apply rounded-none;
+
+    @media (min-width: theme('screens.sm')) {
+      @apply rounded-lg;
+    } */
+}
+
+.card3 {
+  @apply rounded-lg bg-white p-4;
+}
+
+.card4 {
+  border-radius: theme("borderRadius.lg");
+  background-color: theme("colors.white");
+  padding: theme("spacing.4");
+}

@@ -1,0 +1,19 @@
+
+.select-dropdown {
+  @apply rounded-lg shadow-sm !important;
+  background: pink !important;
+}
+.btn {
+    @apply font-bold py-2 px-4 rounded bg-pink-300 text-white !important;
+}
+
+.content-area {
+    background-color: pink;
+    height: calc(10vh - theme('spacing.12'));
+}
+
+.content-area2 {
+    background-color: pink;
+    height: calc(10vh - theme('spacing[2.5]'));
+    color: theme('colors.blue.500');
+}
